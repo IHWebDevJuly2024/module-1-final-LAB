@@ -57,8 +57,9 @@ workers.forEach ((worker,index) => {
     let detailsButton = document.createElement("button");
     card.appendChild(detailsButton);
     let anchorElement = document.createElement("a");
-    
-    
+    anchorElement.href = `./${worker.id}.html`;
+     anchorElement.textContent = "Details";
+     detailsButton.classList.add("details-button");
     detailsButton.appendChild(anchorElement);
 
 

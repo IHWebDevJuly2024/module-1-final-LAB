@@ -30,8 +30,8 @@ body{
 .card{
     border: 1px  color black;
     background-color: yellow;
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     text-align: center;

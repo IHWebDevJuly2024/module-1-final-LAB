@@ -1,0 +1,16 @@
+const bodyElement = document.querySelector("body");
+let card = document.createElement("div");
+    card.className = "card";
+    bodyElement.appendChild(card);
+    let image = document.createElement("img");
+    image.src = workers[3].photo;
+    card.appendChild(image);
+    let cardName = document.createElement("h2");
+    cardName.textContent = workers[3].name;
+    card.appendChild(cardName);
+    let cardPosition = document.createElement("h3");
+    cardPosition.textContent = workers[3].position;
+    card.appendChild(cardPosition);
+    let cardMail = document.createElement("p");
+    cardPosition.textContent = workers[3].email;
+    card.appendChild(cardMail);
