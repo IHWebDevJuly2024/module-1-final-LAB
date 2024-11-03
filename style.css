@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+
+    img {
+        width: 100px;
+    }
+}
+
+
+#worker-info {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
